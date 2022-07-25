@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+.bg1 {
+    background-color: #FEEAE9;
+}
+
 /* ------
 nav styles Custom 
 -----*/
@@ -25,22 +29,21 @@ nav styles Custom
 
 .navbar-light .navbar-nav .nav-link {
     color: #707070;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 14px;
 }
 
-.form-control {
-    border-radius: 21px;
-    color: #707070;
-    font-size: 14px;
-    padding: 8px 145px 8px 17px;
-}
 
 .navbar-nav {
     margin-bottom: 4px;
-    font-weight: 400;
+
 }
+
 
 /* -------
 nav custom end
  --------*/
+/* some custom css */
+.subscribe {
+    height: 350px;
+}
