@@ -44,6 +44,20 @@ nav styles Custom
 nav custom end
  --------*/
 /* some custom css */
+.categories-img {
+    width: 100px;
+}
+
+.buy-now-button {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+/* media queries */
 @media only screen and(max-width: 576px) {
     .search {
         margin: 0 auto;
