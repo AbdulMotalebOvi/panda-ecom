@@ -44,6 +44,10 @@ nav styles Custom
 nav custom end
  --------*/
 /* some custom css */
-.subscribe {
-    height: 350px;
+@media only screen and(max-width: 576px) {
+    .search {
+        margin: 0 auto;
+        padding-top: 17px;
+
+    }
 }
