@@ -1,0 +1,46 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+
+/* utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------
+nav styles Custom 
+-----*/
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #707070;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.form-control {
+    border-radius: 21px;
+    color: #707070;
+    font-size: 14px;
+    padding: 8px 145px 8px 17px;
+}
+
+.navbar-nav {
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+/* -------
+nav custom end
+ --------*/
